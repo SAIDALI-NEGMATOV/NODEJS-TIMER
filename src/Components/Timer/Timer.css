@@ -1,0 +1,66 @@
+.Timer .Time-BCG {
+    width: 60%;
+    height: 45%;
+    background-color: #f1f1f1;
+}
+
+.Timer .Time-BCG .Time-header {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+}
+
+.Timer .Time-BCG .Time-Center {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.Timer .Time-BCG .Time-Center  h2 {
+    font-size: 30px;
+}
+
+.Timer .Time-BCG .Time-Center .hour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 3%;
+}
+.Timer .Time-BCG .Time-Center .Minute {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 3%;
+}
+.Timer .Time-BCG .Time-Center .Second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 3%;
+}
+
+.Timer .Time-BCG .Time-footer {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    gap: 30px;
+}
+
+.Timer .Time-BCG .Time-footer button {
+    padding: 10px 20px;
+
+}

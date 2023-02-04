@@ -1,0 +1,82 @@
+
+
+.container {
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .allWidth {
+    width: 80%;
+    height: 100%;
+}
+
+.container .allWidth nav {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+}
+
+.container .allWidth nav .left {
+    width: 30%;
+    height: 100%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .allWidth nav .left a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    text-align: center;    
+    color: #2B2C4F;
+}
+
+.container .allWidth nav .right {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container .allWidth nav .right a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    text-align: center;    
+    color: #2B2C4F;
+    text-transform: capitalize;
+}
+
+.container .allWidth nav .right button {
+    padding: 7px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: rgb(29, 88, 77);
+    border: none;
+   }
+
+   .container .allWidth nav .right button a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;    
+    text-align: center;    
+    color: rgba(225, 255, 160, 1);
+    text-transform: capitalize;
+   }
